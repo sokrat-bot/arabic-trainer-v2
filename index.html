@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f2ec">
+  <meta name="description" content="Интерактивный тренажёр арабского алфавита: короткие уроки, слова-примеры и сохранение прогресса на этом устройстве.">
+  <title>Арабский язык: от буквы к смыслу — Хуруф</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="navy">
+<a class="skip-link" href="#main">К содержанию</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Хуруф — на главную">
+        <span class="brand__mark" lang="ar" aria-hidden="true">ح</span>
+        <span class="brand__text"><span class="brand__name">Хуруф</span><span class="brand__caption">арабский по буквам</span></span>
+      </a>
+      <span class="header-note">28 букв · 9 коротких уроков</span>
+    </header>
+    <nav class="page-nav-wrap" aria-label="Навигация по урокам">
+      <div class="page-nav">
+        <a class="page-nav__link" href="index.html" aria-current="page">Главная</a>
+        <a class="page-nav__link" href="page1.html">1 · ا — ت</a>
+        <a class="page-nav__link" href="page2.html">2 · ث — ح</a>
+        <a class="page-nav__link" href="page3.html">3 · خ — ذ</a>
+        <a class="page-nav__link" href="page4.html">4 · ر — س</a>
+        <a class="page-nav__link" href="page5.html">5 · ش — ض</a>
+        <a class="page-nav__link" href="page6.html">6 · ط — ع</a>
+        <a class="page-nav__link" href="page7.html">7 · غ — ق</a>
+        <a class="page-nav__link" href="page8.html">8 · ك — م</a>
+        <a class="page-nav__link" href="page9.html">9 · ن — ي</a>
+      </div>
+    </nav>
+    <main id="main">
+      <section class="hero hero--home" aria-labelledby="home-title">
+        <div class="hero__inner">
+          <div class="hero__copy">
+            <p class="eyebrow">Интерактивный тренажёр</p>
+            <h1 id="home-title">Арабский язык:<br>от буквы к смыслу</h1>
+            <p class="hero__description">Откройте логику арабского языка: познакомьтесь с буквами, соберите первые слова и двигайтесь в собственном темпе.</p>
+            <a class="button" href="page1.html">Начать обучение <span class="button__arrow" aria-hidden="true">↗</span></a>
+            <span class="hero__index">Короткие уроки · 28 букв</span>
+          </div>
+          <div class="hero__art" lang="ar" dir="rtl" aria-hidden="true"><span>ا</span><span>ب</span><span>م</span><span>ي</span></div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="progress-title">
+        <div class="section-heading">
+          <div><span class="section-heading__label">Ваш путь</span><h2 id="progress-title">Шаг за шагом</h2></div>
+          <p>Отмечайте изученные буквы. Прогресс сохранится в браузере на этом устройстве.</p>
+        </div>
+        <section class="progress-card" aria-label="Прогресс обучения">
+      <div class="progress-card__top">
+        <p class="progress-card__title">Ваш темп — ваш путь</p>
+        <span class="progress-card__count"><span data-progress-count>0</span> / 28</span>
+      </div>
+      <div class="progress-track" role="progressbar" aria-label="Изучено букв" aria-valuemin="0" aria-valuemax="28" aria-valuenow="0" aria-valuetext="0 из 28 букв">
+        <div class="progress-track__fill" data-progress-bar></div>
+      </div>
+      <p class="progress-card__note" data-progress-label aria-live="polite">Изучено 0 из 28 букв</p>
+    </section>
+      </section>
+
+      <section class="section section--compact" aria-labelledby="alphabet-title">
+        <div class="section-heading">
+          <div><span class="section-heading__label">Арабский алфавит</span><h2 id="alphabet-title">Все 28 букв</h2></div>
+          <p>Выберите букву, чтобы перейти к уроку и увидеть слово-пример.</p>
+        </div>
+        <div class="alphabet-grid">
+          <a class="alphabet-tile" href="page1.html#alif" aria-label="Буква Алиф — урок 1"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">ا</span><span class="alphabet-tile__name">Алиф</span></a>
+          <a class="alphabet-tile" href="page1.html#ba" aria-label="Буква Ба — урок 1"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">ب</span><span class="alphabet-tile__name">Ба</span></a>
+          <a class="alphabet-tile" href="page1.html#ta" aria-label="Буква Та — урок 1"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">ت</span><span class="alphabet-tile__name">Та</span></a>
+          <a class="alphabet-tile" href="page2.html#tha" aria-label="Буква Са — урок 2"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">ث</span><span class="alphabet-tile__name">Са</span></a>
+          <a class="alphabet-tile" href="page2.html#jim" aria-label="Буква Джим — урок 2"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">ج</span><span class="alphabet-tile__name">Джим</span></a>
+          <a class="alphabet-tile" href="page2.html#ha" aria-label="Буква Ха — урок 2"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">ح</span><span class="alphabet-tile__name">Ха</span></a>
+          <a class="alphabet-tile" href="page3.html#kha" aria-label="Буква Ха с точкой — урок 3"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">خ</span><span class="alphabet-tile__name">Ха с точкой</span></a>
+          <a class="alphabet-tile" href="page3.html#dal" aria-label="Буква Даль — урок 3"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">د</span><span class="alphabet-tile__name">Даль</span></a>
+          <a class="alphabet-tile" href="page3.html#dhal" aria-label="Буква Заль — урок 3"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">ذ</span><span class="alphabet-tile__name">Заль</span></a>
+          <a class="alphabet-tile" href="page4.html#ra" aria-label="Буква Ра — урок 4"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">ر</span><span class="alphabet-tile__name">Ра</span></a>
+          <a class="alphabet-tile" href="page4.html#zay" aria-label="Буква Зай — урок 4"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">ز</span><span class="alphabet-tile__name">Зай</span></a>
+          <a class="alphabet-tile" href="page4.html#sin" aria-label="Буква Син — урок 4"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">س</span><span class="alphabet-tile__name">Син</span></a>
+          <a class="alphabet-tile" href="page5.html#shin" aria-label="Буква Шин — урок 5"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">ش</span><span class="alphabet-tile__name">Шин</span></a>
+          <a class="alphabet-tile" href="page5.html#sad" aria-label="Буква Сад — урок 5"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">ص</span><span class="alphabet-tile__name">Сад</span></a>
+          <a class="alphabet-tile" href="page5.html#dad" aria-label="Буква Дад — урок 5"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">ض</span><span class="alphabet-tile__name">Дад</span></a>
+          <a class="alphabet-tile" href="page6.html#tta" aria-label="Буква Та (эмфатическая) — урок 6"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">ط</span><span class="alphabet-tile__name">Та (эмфатическая)</span></a>
+          <a class="alphabet-tile" href="page6.html#zza" aria-label="Буква За (эмфатическая) — урок 6"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">ظ</span><span class="alphabet-tile__name">За (эмфатическая)</span></a>
+          <a class="alphabet-tile" href="page6.html#ayn" aria-label="Буква Айн — урок 6"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">ع</span><span class="alphabet-tile__name">Айн</span></a>
+          <a class="alphabet-tile" href="page7.html#ghayn" aria-label="Буква Гайн — урок 7"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">غ</span><span class="alphabet-tile__name">Гайн</span></a>
+          <a class="alphabet-tile" href="page7.html#fa" aria-label="Буква Фа — урок 7"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">ف</span><span class="alphabet-tile__name">Фа</span></a>
+          <a class="alphabet-tile" href="page7.html#qaf" aria-label="Буква Каф — урок 7"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">ق</span><span class="alphabet-tile__name">Каф</span></a>
+          <a class="alphabet-tile" href="page8.html#kaf" aria-label="Буква Кяф — урок 8"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">ك</span><span class="alphabet-tile__name">Кяф</span></a>
+          <a class="alphabet-tile" href="page8.html#lam" aria-label="Буква Лям — урок 8"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">ل</span><span class="alphabet-tile__name">Лям</span></a>
+          <a class="alphabet-tile" href="page8.html#mim" aria-label="Буква Мим — урок 8"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">م</span><span class="alphabet-tile__name">Мим</span></a>
+          <a class="alphabet-tile" href="page9.html#nun" aria-label="Буква Нун — урок 9"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">ن</span><span class="alphabet-tile__name">Нун</span></a>
+          <a class="alphabet-tile" href="page9.html#ha2" aria-label="Буква Ха — урок 9"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">ه</span><span class="alphabet-tile__name">Ха</span></a>
+          <a class="alphabet-tile" href="page9.html#waw" aria-label="Буква Вав — урок 9"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">و</span><span class="alphabet-tile__name">Вав</span></a>
+          <a class="alphabet-tile" href="page9.html#ya" aria-label="Буква Йа — урок 9"><span class="alphabet-tile__glyph" lang="ar" dir="rtl">ي</span><span class="alphabet-tile__name">Йа</span></a>
+        </div>
+      </section>
+
+      <section class="section section--compact" aria-labelledby="about-title">
+        <div class="info-strip">
+          <span class="info-strip__number" lang="ar" aria-hidden="true">من</span>
+          <div><h3 id="about-title">От буквы — к слову</h3><p>Знакомьтесь с названиями, звучанием и короткими примерами. Арабский текст читается справа налево; все уроки собраны в девять небольших шагов.</p></div>
+        </div>
+      </section>
+    </main>
+<footer class="site-footer">
+      <a class="site-footer__brand" href="index.html"><span class="site-footer__mark" lang="ar" aria-hidden="true">ح</span> Хуруф · учим буквы</a>
+      <span>Прогресс сохраняется в браузере на этом устройстве.</span>
+      <a href="index.html">На главную</a>
+    </footer>
+  </div>
+  <script src="app.js" defer></script>
+</body>
+</html>
